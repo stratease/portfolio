@@ -5,13 +5,14 @@
     "repositories":[
         {
             "type":"vcs",
-            "url":""
+            "url":"git@github.com:stratease/emvc.git"
         }
     ],
     "require": {
         "php": ">=5.4.0",
         "ext-curl": "*",
-        "stratease/emvc":"dev-master"
+        "stratease/emvc":"dev-master",
+		"twig/twig":"dev-master"
     },
     "require-dev": {
     }

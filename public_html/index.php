@@ -1,4 +1,5 @@
 <?php
 require_once(__DIR__.'/../vendor/autoload.php');
-$s = new Site(array(__DIR__.'/../config.ini', __DIR__.'/../localConfig.ini/'));
+require_once(__DIR__.'/../vendor/stratease/emvc/Site.class.php');
+$s = new Site([__DIR__.'/../config.ini', __DIR__.'/../localConfig.ini']);
 $s->render();
